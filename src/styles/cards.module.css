@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+.DivNotCity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    max-width: 500px;
+    margin: 10rem auto;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.notCity{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+}
+
+.alert{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: yellow
+}
+
+@media screen and (max-width: 968px){
+    .container{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .DivNotCity{
+        width: 20rem;
+        height: 50px;
+        margin: 50px auto;
+    }
+    .notCity{
+        font-size: 1.3rem;
+    }
+}
+
+

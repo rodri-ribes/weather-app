@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(129, 195, 223);
+    border-radius: 10px;
+}
+
+.ContainerDatos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+}
+
+.Container h1{
+    font-family: 'Short Stack', cursive;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.ContainerDatos p{
+    font-size: 15px;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 968px){
+
+    .Container{
+        width: 90%;
+        position: relative;
+        bottom: 100px;
+    }
+}
