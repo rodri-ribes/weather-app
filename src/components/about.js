@@ -6,10 +6,13 @@ function About() {
             <h1 className={style.Title}>ACERCA DE</h1>
             <div className={style.ContainerInfo}>
                 <div className={style.Info}>
-                    <p>Esta web fue realizada con la api de OpenWeatherMap <br/>
+                    <h1>COMO SE DESARROLLO LA WEB</h1>
+                    <hr/>
+                    <p>La idea de esta web es la implementacion de la API de OpenWeatherMap</p>
                         <br/>
-                        Desarrollada por Rodrigo Ribes
-
+                        <p>Se usaron las siguiente librerias para su desarrollo:  <br/> <br/>
+                        <b>React,  React-Redux,  Redux,  Redux-Toolkit,  Axios,  React-Router</b>
+                    <p/>
                     </p>
                 </div>
             </div>
