@@ -8,8 +8,8 @@
     width: 500px;
     height: 300px;
     margin: auto;
-    background-color: rgb(129, 195, 223);
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.307);
+    border-radius:5px;
 }
 
 .ContainerDatos{
@@ -22,9 +22,10 @@
 
 .Container h1{
     font-family: 'Short Stack', cursive;
-    align-self: flex-start;
+    align-self: center;
     margin-left: 10px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .ContainerDatos p{
@@ -32,6 +33,11 @@
     font-family: Verdana;
     letter-spacing: 1px;
     line-height: 25px;
+    color: rgb(219, 198, 160);
+}
+
+.ContainerDatos p b{
+    color: white;
 }
 
 @media screen and (max-width: 968px){
